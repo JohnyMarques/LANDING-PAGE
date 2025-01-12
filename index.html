@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <section class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;"> 
+            <a href="#home">Início</a>
+        </h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;"> 
+            <li><a href="#evolucion">Intro</a></li>
+            <li><a href="#top3">TOP 3 Jogadores</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </section>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>A Emoção de Torcer por um Time</h2>
+        <p>Torcer por um time de futebol é uma experiência única. É paixão, sofrimento e alegria em uma só jornada. Cada gol marcado é um grito que parece aliviar a alma. Cada derrota, uma dor que parece não ter fim. Mas é nos momentos difíceis que a torcida mostra sua verdadeira força. O futebol une pessoas de diferentes origens, todas compartilhando o mesmo amor pelo clube do coração.</p>
+    </div>
+    <div class="intro-img">
+        <img src="./assets/img/javascript.svg" alt="chute ao gol com um goleiro defendendo">
+    </div>
+</div>
+
+    </section>
+
+    <section id="evolucion" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>A Evolução Tática no Futebol</h2>
+            <p>O futebol mudou muito ao longo das décadas. Nos primeiros anos, a formação mais comum era o 2-3-5, com cinco atacantes prontos para marcar gols. Hoje, vemos esquemas mais compactos, como o 4-3-3 e o 4-2-3-1, que equilibram defesa e ataque. Técnicos modernos, como Pep Guardiola e Carlo Ancelotti, revolucionaram o esporte ao introduzir conceitos como "falso 9" e a posse de bola intensa.</p>
+            <p>O futebol não é apenas habilidade, mas também estratégia. O futebol tem raízes em práticas antigas que envolviam o chute de bolas ou objetos semelhantes. Algumas culturas antigas, como o cuju na China (século II a.C.) e o harpastum romano, já apresentavam jogos que lembravam o futebol. Durante a Idade Média, jogos de bola eram comuns na Europa, especialmente na Inglaterra, mas eram desorganizados e muitas vezes violentos. Foi apenas no século XIX que o futebol começou a se estruturar, com escolas e universidades inglesas criando regras formais que diferenciavam o futebol do rugby. </p>
+            <p>Em 1863, a criação da Football Association (FA) na Inglaterra estabeleceu as regras padronizadas do futebol moderno. Esse momento marcou o nascimento do esporte como o conhecemos hoje. Rapidamente, o futebol se espalhou pelo mundo, influenciado pela colonização britânica e pela crescente popularidade global. O futebol também evoluiu como um grande negócio global. A profissionalização, que começou no final do século XIX, transformou jogadores em trabalhadores remunerados. </p>
+           
+        </div>
+    </section>
+
+    <section id="top3" class="grid main-bg section">
+        <div class="main-content grid-one-content">
+             <h2 class="grid-main-heading">Jogadores</h2>
+             <p class="grid-description">Uma breve descrição</p>
+             <div class="gridam">
+                <article>
+                    <h3>Pelé</h3>
+             <p>Na Era 1950-1970, foi considerado um dos maiores jogadores de todos os tempos, Pelé venceu três Copas do Mundo (1958, 1962, 1970), um feito único. Sua habilidade técnica, visão de jogo e capacidade de marcar gols (mais de 1.000 em sua carreira) o tornam uma lenda..</p></article> 
+             <article>
+                <h3>C. Ronaldo</h3>
+            <p>Da era 2000 até a atual é considerado um dos maiores goleadores da história, Ronaldo combina força física, habilidade e mentalidade vencedora. Ele conquistou múltiplas Champions League, títulos em ligas como a Premier League, La Liga e Serie A, além de uma Eurocopa com Portugal.</p>
+            </article>
+            <article>
+            <h3>Neymar Jr.</h3>
+            <p>De 2010 para cá, Neymar é conhecido por sua habilidade em dribles, criatividade e carisma em campo. Foi peça-chave em conquistas como a Libertadores pelo Santos, a Champions League pelo Barcelona e a Medalha de Ouro Olímpica pelo Brasil. É um dos maiores artilheiros da seleção brasileira..</p>
+            </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="gallery" class="grid white-bg section">
+        <div class="main-content grid-one-content">
+             <h2 class="grid-main-heading">Gallery</h2>
+             <p class="grid-description">Melhores fotos no futebol</p>
+             <div class="gridam">
+                <div class="gallery-img">
+                    <img src="./assets/img/futebol-feminino.jpeg" alt="Futebol feminino">
+                </div>              
+                <div class="gallery-img">
+                    <img src="./assets/img/quadra.png" alt="Futebol feminino">
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/joga.png" alt="Futebol feminino">
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/jogadordef.png" alt="Futebol feminino">
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/palmeniras.jpg" alt="Futebol feminino">
+                </div>
+                <div class="gallery-img">
+                    <img src="./assets/img/time.jpg" alt="Futebol feminino">
+                </div>
+        </div> 
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>Nossa loja de camisas de futebol é o lugar perfeito para os apaixonados pelo esporte que querem vestir sua paixão. Oferecemos uma ampla variedade de camisas, desde modelos clássicos e retrôs até os lançamentos mais recentes dos principais clubes e seleções do mundo. Cada peça é escolhida com cuidado para garantir qualidade, autenticidade e conforto, proporcionando a você a experiência de vestir a história e a emoção do futebol.
+            </p>
+            <p>Seja para torcer pelo seu time do coração, colecionar modelos exclusivos ou presentear alguém especial, aqui você encontra as melhores opções. Além disso, nossa equipe está sempre pronta para oferecer um atendimento personalizado, ajudando você a escolher a camisa ideal. Venha nos visitar e faça parte da nossa comunidade de fãs que compartilham a mesma paixão pelo esporte mais amado do planeta! 
+            </p>
+            <div class="responsive-table">
+            <table>
+                <caption>Tabela de preços</caption>
+                <thead>
+                    <tr>
+                        <th>Blusa do Brasil(Masc)</th>
+                        <th>Blusa do Brasil(Femin)</th>
+                        <th>Blusa do Flamengo(Masc)</th>
+                        <th>Blusa do Flamengo(Femin)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tamanho P M G e GG</td>
+                        <td>Tamanho P M G e GG</td>
+                        <td>Tamanho P M G e GG</td>
+                        <td>Tamanho P M G e GG</td>
+                    </tr>
+                    <tr>
+                        <td>Tecido e algodão</td>
+                        <td>Tecido e algodão</td>
+                        <td>Malha e algodão</td>
+                        <td>Malha e algodão</td>
+                    </tr>
+                    <tr>
+                        <td>$179,90</td>
+                        <td>$179,90</td>
+                        <td>$250,00</td>
+                        <td>$250,00</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Testando</td>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+        <div class="intro-text-content">
+        <h2>A Emoção de Torcer por um Time</h2>
+        <p>Torcer por um time de futebol é uma experiência única. É paixão, sofrimento e alegria em uma só jornada. Cada gol marcado é um grito que parece aliviar a alma. Cada derrota, uma dor que parece não ter fim. Mas é nos momentos difíceis que a torcida mostra sua verdadeira força. O futebol une pessoas de diferentes origens, todas compartilhando o mesmo amor pelo clube do coração.</p>
+    </div>
+    <div class="intro-img">
+        <img src="./assets/img/javascript.svg" alt="chute ao gol com um goleiro defendendo">
+    </div>
+    <div class="contact-form">
+        <fieldset class="form-grid">
+            <legend>Contatos</legend>
+
+            <div class="form-group">
+                <label for="first-name">Pimeiro Nome:</label>
+                <input id="first-name" name="first-name" type="text" placeholder="Seu Nome">
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Segundo Nome:</label>
+                <input id="last-name" name="last-name" type="text" placeholder="Sobrenome">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="text" placeholder="Seu email">
+            </div>
+
+            <div class="form-group full-width">
+                <label for="message">Mensagem:</label>
+                <textarea name="message" id="message" placeholder="Sua mensagem"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+            <button type="submit">Enviar mensagem</button>
+                </div>
+        </fieldset>
+    </div>
+</div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://www.instagram.com/johnymarquesg2/">Feito com <span class="heart"> ❤ </span>por Johny</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#"> ➤ </a>
+</body>
+</html>
